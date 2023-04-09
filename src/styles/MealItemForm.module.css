@@ -1,0 +1,57 @@
+.form{
+    margin-left: -8px;
+
+    margin-top: -100px;
+}
+
+.form label {
+    margin-right:  -5px;;
+}
+
+.form button{
+    font:inherit;
+    cursor:pointer;
+    background-color: #55AB67;
+    border: 1px solid #4E9C5D;
+    color: rgb(255, 255, 255);
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-content: center;
+    width:120px;
+    height: 48px;
+    margin-top: -133px;
+    margin-left: 145px;
+
+}
+
+
+.form button:hover,
+.form button:active {
+    background-color: rgb(19, 70, 38);
+
+}
+
+
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(0.9);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
